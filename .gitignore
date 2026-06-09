@@ -1,0 +1,35 @@
+# Dependencies
+app/node_modules/
+node_modules/
+
+# Build output
+app/dist/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment
+.env
+app/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project planning
+.claude/
+PHASE*.md
+
+# Vercel
+.vercel/

@@ -1,0 +1,154 @@
+[
+  {
+    "escrow_id": 1,
+    "order_id": 23,
+    "amount": 300000,
+    "state": "AWAITING_PAYMENT",
+    "created_at": "2026-06-06T07:33:47.851461",
+    "resolved_at": null,
+    "history": [
+      {
+        "timestamp": "2026-06-06T07:33:47.851467",
+        "from_state": null,
+        "to_state": "AWAITING_PAYMENT",
+        "reason": "Escrow created. Awaiting buyer payment."
+      }
+    ]
+  },
+  {
+    "escrow_id": 2,
+    "order_id": 24,
+    "amount": 500000,
+    "state": "AWAITING_PAYMENT",
+    "created_at": "2026-06-06T07:33:47.851525",
+    "resolved_at": null,
+    "history": [
+      {
+        "timestamp": "2026-06-06T07:33:47.851530",
+        "from_state": null,
+        "to_state": "AWAITING_PAYMENT",
+        "reason": "Escrow created. Awaiting buyer payment."
+      }
+    ]
+  },
+  {
+    "escrow_id": 7,
+    "order_id": 32,
+    "amount": 250000,
+    "state": "AWAITING_PAYMENT",
+    "created_at": "2026-06-06T07:37:03.419484",
+    "resolved_at": null,
+    "history": [
+      {
+        "timestamp": "2026-06-06T07:37:03.419489",
+        "from_state": null,
+        "to_state": "AWAITING_PAYMENT",
+        "reason": "Escrow created. Awaiting buyer payment."
+      }
+    ]
+  },
+  {
+    "escrow_id": 197,
+    "order_id": 333,
+    "amount": 7800,
+    "state": "COMPLETED",
+    "created_at": "2026-06-07T10:46:06.396756",
+    "resolved_at": "2026-06-07T11:08:58.132553",
+    "history": [
+      {
+        "timestamp": "2026-06-07T10:46:06.396762",
+        "from_state": null,
+        "to_state": "AWAITING_PAYMENT",
+        "reason": "Escrow created. Awaiting buyer payment."
+      },
+      {
+        "timestamp": "2026-06-07T11:01:59.547101",
+        "from_state": "AWAITING_PAYMENT",
+        "to_state": "FUNDS_HELD",
+        "reason": "Buyer payment received. Funds locked in escrow."
+      },
+      {
+        "timestamp": "2026-06-07T11:02:22.102748",
+        "from_state": "FUNDS_HELD",
+        "to_state": "SELLER_PREPARING",
+        "reason": "Seller confirmed order. 48-hour preparation window started."
+      },
+      {
+        "timestamp": "2026-06-07T11:02:22.102759",
+        "from_state": "SELLER_PREPARING",
+        "to_state": "IN_TRANSIT",
+        "reason": "3PL pickup confirmed. Shipment in transit. Tracking issued."
+      },
+      {
+        "timestamp": "2026-06-07T11:07:45.780559",
+        "from_state": "IN_TRANSIT",
+        "to_state": "DELIVERED_PENDING",
+        "reason": "Delivery confirmed by 3PL. 48-hour buyer confirmation window open."
+      },
+      {
+        "timestamp": "2026-06-07T11:08:58.132522",
+        "from_state": "DELIVERED_PENDING",
+        "to_state": "CONFIRMED",
+        "reason": "Buyer confirmed delivery. Escrow approved for seller release."
+      },
+      {
+        "timestamp": "2026-06-07T11:08:58.132557",
+        "from_state": "CONFIRMED",
+        "to_state": "COMPLETED",
+        "reason": "Funds released to seller. Transaction complete. Ratings unlocked."
+      }
+    ]
+  },
+  {
+    "escrow_id": 330,
+    "order_id": 659,
+    "amount": 2500,
+    "state": "COMPLETED",
+    "created_at": "2026-06-09T16:30:18.744009",
+    "resolved_at": "2026-06-09T16:33:01.851245",
+    "history": [
+      {
+        "timestamp": "2026-06-09T16:30:18.744012",
+        "from_state": null,
+        "to_state": "AWAITING_PAYMENT",
+        "reason": "Escrow created. Awaiting buyer payment."
+      },
+      {
+        "timestamp": "2026-06-09T16:32:01.898585",
+        "from_state": "AWAITING_PAYMENT",
+        "to_state": "FUNDS_HELD",
+        "reason": "Buyer payment received. Funds locked in escrow."
+      },
+      {
+        "timestamp": "2026-06-09T16:32:41.977865",
+        "from_state": "FUNDS_HELD",
+        "to_state": "SELLER_PREPARING",
+        "reason": "Seller confirmed order. 48-hour preparation window started."
+      },
+      {
+        "timestamp": "2026-06-09T16:32:41.977871",
+        "from_state": "SELLER_PREPARING",
+        "to_state": "IN_TRANSIT",
+        "reason": "3PL pickup confirmed. Shipment in transit. Tracking issued."
+      },
+      {
+        "timestamp": "2026-06-09T16:32:58.062178",
+        "from_state": "IN_TRANSIT",
+        "to_state": "DELIVERED_PENDING",
+        "reason": "Delivery confirmed by 3PL. 48-hour buyer confirmation window open."
+      },
+      {
+        "timestamp": "2026-06-09T16:33:01.851227",
+        "from_state": "DELIVERED_PENDING",
+        "to_state": "CONFIRMED",
+        "reason": "Buyer confirmed delivery. Escrow approved for seller release."
+      },
+      {
+        "timestamp": "2026-06-09T16:33:01.851247",
+        "from_state": "CONFIRMED",
+        "to_state": "COMPLETED",
+        "reason": "Funds released to seller. Transaction complete. Ratings unlocked."
+      }
+    ]
+  }
+]

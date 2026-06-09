@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Kamrol san",
+    "email": "user@gmail.com",
+    "password_hash": "$2b$12$QzaLL7MKtl77OTOmEZyfTu3XZ74/cXOauN49IpT6LNsxluSRQNMcu",
+    "role": "buyer",
+    "status": "active",
+    "created_at": "2026-05-03T14:03:21.870072",
+    "watchlist": []
+  },
+  {
+    "id": 2,
+    "name": "Test Buyer",
+    "email": "testbuyer@example.com",
+    "password_hash": "$2b$12$1/J3gIeEMqr8CfRKAZVi.uZYuqHWiGfseX5TjssFuU7fjJriHI7sa",
+    "role": "buyer",
+    "status": "active",
+    "created_at": "2026-05-10T07:28:05.157438",
+    "watchlist": []
+  },
+  {
+    "id": 3,
+    "name": "Textile Factory Ltd",
+    "email": "seller@factory.com",
+    "password_hash": "$2b$12$8yh6IkknZKASEeBzv7yvA.wC0R5ZAlEnAw6s1jPG2scVtNiCs3Qfu",
+    "role": "seller",
+    "status": "active",
+    "created_at": "2026-05-10T07:28:27.555067",
+    "trade_license": "TL-2024-12345",
+    "rating": 0.0,
+    "listing_count": 0,
+    "strikes": 0
+  },
+  {
+    "id": 4,
+    "name": "Kamrul Hasan",
+    "email": "abdulhyegaff68@gmail.com",
+    "password_hash": "$2b$12$wqX/0/TXZdwnUGOYG9y2uuTv5VHOxFAjOJb9ZPI6zsQmRdn54qu0i",
+    "role": "buyer",
+    "status": "active",
+    "created_at": "2026-05-12T16:32:03.192748",
+    "watchlist": [
+      331
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Hasan",
+    "email": "kh@gmail.com",
+    "password_hash": "$2b$12$qKwF7wjM7eyUWNeLFcjfzurVMo6bdUs2ttl6WDPsYigJYav5lELw.",
+    "role": "seller",
+    "status": "active",
+    "created_at": "2026-05-13T03:45:09.155241",
+    "trade_license": "TL-122334",
+    "rating": 0.0,
+    "listing_count": 0,
+    "strikes": 0
+  },
+  {
+    "id": 39,
+    "name": "Polaashh",
+    "email": "kamrul.hasan82747@gmail.com",
+    "password_hash": "$2b$12$8MeO3INmEJeF7rzYMyK4.OiDEcCeuiO7.xP/IHtGcoL3gk1vIwp/u",
+    "role": "seller",
+    "status": "active",
+    "created_at": "2026-05-13T03:54:54.710947",
+    "trade_license": "TL-123456",
+    "rating": 0.0,
+    "listing_count": 4,
+    "strikes": 0
+  },
+  {
+    "id": 70,
+    "name": "has",
+    "email": "a@gmail.com",
+    "password_hash": "$2b$12$f0Otg9XXFrlp0DJVKLiU6ePi9kPjr.2HqWnnjmUERLiESkTA74KXW",
+    "role": "seller",
+    "status": "active",
+    "created_at": "2026-05-17T16:53:18.074998",
+    "trade_license": "TL-12",
+    "rating": 0.0,
+    "listing_count": 0,
+    "strikes": 0
+  },
+  {
+    "id": 92,
+    "name": "Hasan Textiles",
+    "email": "kujjal2530003@bsds.uiu.ac.bd",
+    "password_hash": "$2b$12$vis7eJr05IS9o92HgJqAq.SHmetlqaFqli7tFIhgt.hXLa.Sa6Z3u",
+    "role": "buyer",
+    "status": "pending_verification",
+    "created_at": "2026-06-01T05:53:25.024456",
+    "watchlist": []
+  },
+  {
+    "id": 93,
+    "name": "Rahim Textiles",
+    "email": "ds.uhkdatalog@gmail.com",
+    "password_hash": "$2b$12$dsEeXLbpcDLutgBSgn/46e8rTeWiDKJ2Yw3.j5MDZ61aaDv7Z.mMa",
+    "role": "seller",
+    "status": "active",
+    "created_at": "2026-06-07T10:26:14.150841",
+    "trade_license": "TL-12345",
+    "rating": 0.0,
+    "listing_count": 3,
+    "strikes": 0
+  },
+  {
+    "id": 724,
+    "name": "Hasan Textile",
+    "email": "mintora1.1.1@gmail.com",
+    "password_hash": "$2b$12$Iv.rQuaVo.RAfHm20DUrR.QF6fd.pOOzXLJTWAVbFwN2kEGMpyJWy",
+    "role": "buyer",
+    "status": "pending_verification",
+    "created_at": "2026-06-09T17:13:35.989730",
+    "watchlist": []
+  }
+]

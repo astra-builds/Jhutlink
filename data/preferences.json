@@ -1,0 +1,42 @@
+[
+  {
+    "preference_id": 1,
+    "buyer_id": 4,
+    "preferred_waste_types": [
+      "Cotton",
+      "Polyester"
+    ],
+    "preferred_grades": [
+      "A"
+    ],
+    "preferred_districts": [
+      "Dhaka"
+    ],
+    "min_quantity_kg": 50,
+    "max_quantity_kg": 1000,
+    "max_price_per_kg_taka": 30,
+    "updated_at": "2026-06-09T16:42:57.183474"
+  },
+  {
+    "preference_id": 10,
+    "buyer_id": 92,
+    "preferred_waste_types": [
+      "Cotton",
+      "Polyester",
+      "Mixed"
+    ],
+    "preferred_grades": [
+      "A",
+      "B"
+    ],
+    "preferred_districts": [
+      "Dhaka",
+      "Mymensingh",
+      "Chittagong"
+    ],
+    "min_quantity_kg": 50,
+    "max_quantity_kg": 2000,
+    "max_price_per_kg_taka": 40.0,
+    "updated_at": "2026-06-01T05:54:53.586905"
+  }
+]

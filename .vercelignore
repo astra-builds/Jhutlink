@@ -1,0 +1,7 @@
+.claude
+.venv
+backend
+data
+*.md
+.gitignore
+PHASE*.md
